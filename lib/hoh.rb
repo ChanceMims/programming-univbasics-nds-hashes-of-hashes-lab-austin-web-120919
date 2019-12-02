@@ -42,19 +42,19 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
   biological_hash =   {
-    label: "kingdom",
+    label: "Kingdom",
     sub_category: {
-      label: "phylum",
+      label: "Phylum",
       sub_category: {
-        label: "class",
+        label: "Class",
         sub_category: {
-          label: "order",
+          label: "Order",
           sub_category: {
-            label: "family",
+            label: "Family",
             sub_category: {
-              label: "genus",
+              label: "Genus",
               sub_category:{
-                label: "species",
+                label: "Species",
                 sub_category: {}
               }
             }
